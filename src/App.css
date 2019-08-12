@@ -5,4 +5,11 @@
 img{
   width: 50%;
 }
-  
+ 
+.container{
+  display: flex;
+}
+
+.movie_pic{
+  flex: 1;
+}
