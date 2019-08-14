@@ -8,14 +8,14 @@ function App() {
      <img src={movie1} alt='Enlightenment Guaranteed' />
      <br /><br /><br /> 
      <div className="container">
-        <div className='movie_pic'>ReactJs</div>
-        <div className='movie_pic'>HTML5</div>
-        <div className='movie_pic'>CSS3</div>
+        <div className='movie_pic'> <h1>ReactJs</h1> </div>
+        <div className='movie_pic'> <h1>HTML5</h1> </div>
+        <div className='movie_pic'> <h1>CSS3</h1> </div>
      </div>
      <div className="container">
-        <div className='movie_pic'>Node.js</div>
-        <div className='movie_pic'>MongoDB</div>
-        <div className='movie_pic'>Heroku</div>
+        <div className='movie_pic'><h1>Node.js</h1></div>
+        <div className='movie_pic'><h1>MongoDB</h1></div>
+        <div className='movie_pic'><h1>Heroku</h1></div>
      </div> 
     </div>
   );

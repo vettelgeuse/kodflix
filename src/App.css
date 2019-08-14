@@ -8,8 +8,11 @@ img{
  
 .container{
   display: flex;
+  justify-content: center;
 }
 
 .movie_pic{
   flex: 1;
+  margin: 30px;
+  align-items: center;
 }
