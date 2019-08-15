@@ -5,53 +5,25 @@ import movie3 from './images/dolce_vita.jpg';
 import movie4 from './images/gitanos.jpg';
 import movie5 from './images/rashomon.jpg';
 import movie6 from './images/sita_blues.jpg';
+import Movies from './Movies'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <div className='movie_pic'>
-          <img src={movie1} alt='Enlightenment Guaranteed' />
-          <div className='overlay'>
-            <h1>Sabiduria Garantizada</h1>
-          </div>
-        </div>
-        <div className='movie_pic'>
-          <img src={movie2} alt='Los amantes del Circulo Polar' />
-          <div className='overlay'>
-            <h1>Los amantes del Circulo Polar</h1>
-          </div>
-        </div>
-        <div className='movie_pic'>
-          <img src={movie3} alt='La Dolce Vita' />
-          <div className='overlay'>
-            <h1>La Dolce Vita</h1>
-          </div>
-        </div>
+        <Movies name='Enlightenment Guaranteed' cover={movie1}/>
+        <Movies name='Los amantes del Circulo Polar' cover={movie2}/>
+        <Movies name='La Dolce Vita' cover={movie3}/>
       </div>
       <div className="container">
-        <div className='movie_pic'>
-          <img src={movie4} alt='Tiempo de Gitanos' />
-          <div className='overlay'>
-            <h1>Tiempo de Gitanos</h1>
-          </div>
-        </div>
-        <div className='movie_pic'>
-          <img src={movie5} alt='Rashomon' />
-          <div className='overlay'>
-            <h1>Rashomon</h1>
-          </div>
-        </div>
-        <div className='movie_pic'>
-          <img src={movie6} alt='Sita sings the Blues' />
-          <div className='overlay'>
-            <h1>Sita sings the Blues</h1>
-          </div>
-        </div>
+        <Movies name='Tiempo de Gitanos' cover={movie4}/>
+        <Movies name='Rashomon' cover={movie5}/>
+        <Movies name='Sita sings the Blues' cover={movie6}/>
       </div>
     </div>
   );
 }
+
 
 export default App;
