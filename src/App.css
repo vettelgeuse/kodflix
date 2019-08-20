@@ -8,13 +8,10 @@ width: 100%;
  
 .container{
   display: flex;
-  width: 100%;
-  justify-content: space-evenly;
 }
 
 .movie_pic{
   flex: 1;
-  padding: 0px;
   position: relative;
   overflow: hidden;
 }
