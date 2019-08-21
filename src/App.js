@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <HashRouter>
         <Route exact path='/' component={Movielist} />
-        <Route exact path='/details' component={Details} />
+        <Route exact path='/:details' component={Details} />
       </HashRouter>
 
     </div>
