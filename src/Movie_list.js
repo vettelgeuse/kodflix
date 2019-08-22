@@ -13,8 +13,6 @@ export default function Movielist() {
         <Movies name='Enlightenment Guaranteed' cover={movie1} lnk='/enlightenment'/>
         <Movies name='Los amantes del Circulo Polar' cover={movie2} lnk='/circulopolar'/>
         <Movies name='La Dolce Vita' cover={movie3} lnk='/dolcevita'/>
-      </div>
-      <div className="container">
         <Movies name='Tiempo de Gitanos' cover={movie4} lnk='/tiempogitanos'/>
         <Movies name='Rashomon' cover={movie5} lnk='/rashomon'/>
         <Movies name='Sita sings the Blues' cover={movie6} lnk='/sitablues'/>
