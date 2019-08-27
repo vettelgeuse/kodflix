@@ -13,7 +13,7 @@ export default function Movielist() {
                   key={movie.name}
                   name={movie.name}
                   cover={movie.cover}
-                  id={movie.lnk}
+                  lnk={movie.lnk}
                 />
               
           ))
