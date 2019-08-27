@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+
 export default class Details extends React.Component {
 
     constructor() {
@@ -9,21 +10,20 @@ export default class Details extends React.Component {
         };
     }
 
-    componentDidMount(){
-        setTimeout(() =>{
+    componentDidMount() {
+        setTimeout(() => {
             this.setState({
                 initialMessage: 'Coming soon! :)'
             });
         }, 3000);
     }
-    
+
     render() {
         return (
             <div>{this.state.initialMessage}
-    <br></br>
+                <br></br>
                 <Link to='/'>Back to homepage</Link>
             </div>
-
         );
     }
 }
