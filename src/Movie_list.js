@@ -8,17 +8,17 @@ export default function Movielist() {
       <div className="container">
         {
           getMovieList().map((movie) => (
-              
-                <MovieCover
-                  key={movie.name}
-                  name={movie.name}
-                  cover={movie.cover}
-                  lnk={movie.lnk}
-                />
-              
+
+            <MovieCover
+              key={movie.name}
+              name={movie.name}
+              cover={movie.cover}
+              lnk={movie.lnk}
+            />
+
           ))
         }
-      
+
       </div>
     </div>
   )
